@@ -4,5 +4,120 @@
     background-color: darkgray;
     .container {
         max-width: 1240px;
+        padding: 0 1rem;
+        margin: auto;
     }
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .col-1{
+        padding: 1rem 1rem 1rem 0;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #777;
+        }
+        p {
+            font-size: 1rem;
+            color: grey;
+            line-height: 1.4;
+            margin-top: 1.2rem;
+        }
+        .icons {
+            color: grey;
+            padding-right: 1rem;
+        }
+    }
+    .used-by {
+        p {
+            color: #777;
+            font-size: 12px;
+            margin: 2rem 0 1rem 0;
+        }
+    }
+    .col-2 {
+        padding: 1rem;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: .8rem;
+        p {
+            color: #777;
+        }
+    }
+    .form{
+        width: 400px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 6px;
+        .form-container {
+            padding: 1.5rem 2rem;
+            .sign-in-txt {
+                margin-bottom: 10px;
+            }
+            .social-login {
+                display: flex;
+                i {
+                    background-color: #fff;
+                    padding: 16px 45px 6px 45px;
+                    border: 1px solid lightgray;
+                    border-radius: 4px;
+                }
+            }
+            .divider p{
+                width: 100%;
+                text-align: center;
+                border-bottom: 1px solid #777;
+                span {
+                    background-color: #fff;
+                    padding: 0 10px;
+                }
+            }
+            form {
+                input {
+                    display: block;
+                    width: 100%;
+                    margin: 1.2rem 0;
+                    padding: 8px;
+                    border: 1px solid lightgray;
+                    border-radius: 4px;
+                }
+            }
+        }
+        .form-footer {
+            border-top: 1px solid #777;
+            background-color: #fff;
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+            p {
+                padding: 1.5rem 2rem;
+            }
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:960px) {
+   .hero {
+    height: auto;
+    width: 100%;
+    .container {
+        padding: 0 1rem;
+        .content {
+            grid-template-columns: 1fr;
+        }
+        .col-1{
+            height: 90vh;
+            padding: .2rem;
+        }
+    }
+   } 
 }
