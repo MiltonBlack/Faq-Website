@@ -1,0 +1,8 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: darkgray;
+}
+.hero .container {
+  max-width: 1240px;
+}/*# sourceMappingURL=Hero.css.map */
