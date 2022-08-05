@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from './Contact'
 import Faq from './Faq'
+import Footer from './Footer'
 import Hero from './Hero'
 import './Home.css'
 import Navbar from './Navbar'
@@ -16,6 +17,7 @@ const Home = () => {
         <Testimonial/>
         <Faq/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }
