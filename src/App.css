@@ -21,7 +21,7 @@ a {
   color:#6948ff;
 }
 
-.button {
+button {
   width: 100%;
   padding: 8px 0;
   border-radius: 4px;
@@ -31,7 +31,7 @@ a {
   cursor: pointer;
 }
 
-.button:hover {
+button:hover {
   border: 1px solid #553bcb;
   background-color: #553bcb;
 }
