@@ -9,6 +9,14 @@ function Testimonial() {
             <div className="outline">
                 <div className="content">
                     <i><FaDatabase/>EdTutor</i>
+                    <p className='body'>
+                        This is an educational website that enrolls you on a course of your choice.
+                        for better Understanding give it a trial.
+                    </p>
+                    <div className="name">
+                        <p>Sonia Seipolou</p>
+                        <p>CEO, Edtutor</p>
+                    </div>
                 </div>
             </div>
         </div>
