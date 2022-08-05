@@ -115,5 +115,12 @@
   .hero .container .col-1 {
     height: 90vh;
     padding: 0.2rem;
+    max-width: 100%;
+  }
+  .hero .container .col-1 h1 {
+    font-size: 32px;
+  }
+  .hero .container .col-2 {
+    display: none;
   }
 }/*# sourceMappingURL=Hero.css.map */

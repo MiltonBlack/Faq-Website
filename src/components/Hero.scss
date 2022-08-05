@@ -117,6 +117,13 @@
         .col-1{
             height: 90vh;
             padding: .2rem;
+            max-width: 100%;
+            h1 {
+                font-size: 32px;
+            }
+        }
+        .col-2 {
+            display: none;
         }
     }
    } 
