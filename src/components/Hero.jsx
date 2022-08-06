@@ -16,9 +16,9 @@ const Hero = () => {
                     <div className="used-by">
                         <p>USED BY</p>
                         <div className="icons">
-                            <i><FaDatabase/>Civil Engineering Students</i>
-                            <i><FaAsterisk/>100 and 200 Level Engineering</i>
-                            <i><FaAccusoft/>Mechanical Engineering Students</i>
+                            <i><FaDatabase className='icon'/>Civil Engineering Students</i>
+                            <i><FaAsterisk className='icon'/>100 and 200 Level Engineering</i>
+                            <i><FaAccusoft className='icon'/>Mechanical Engineering Students</i>
                         </div>
                     </div>
                 </div>
